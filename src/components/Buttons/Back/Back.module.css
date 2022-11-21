@@ -1,0 +1,26 @@
+.top {
+  background: rgb(27, 27, 27);
+  display: block;
+  padding: 0.6rem 0.7rem;
+  z-index: 6;
+  position: fixed;
+  right: 4%;
+  transform: translateX(-50%);
+  bottom: 3rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  align-items: center;
+  transition: var(--transition);
+  color: var(--color-light);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 540px) {
+  .top {
+    margin-bottom: 25%;
+    right: 2%;
+  }
+}

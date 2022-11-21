@@ -1,0 +1,22 @@
+.search {
+  position: absolute;
+  right: 4%;
+  top: 4%;
+}
+
+.searchBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 100%;
+  background: transparent;
+  font-size: 30px;
+}
+
+.searchBtn:hover {
+  color: var(--color-light);
+  cursor: pointer;
+}
